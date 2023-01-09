@@ -1,0 +1,49 @@
+.heading {
+    font-size:23px;
+    width:100%;
+    margin:0px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight:bolder;
+    box-shadow: 5px 5px 5px rgb(236, 159, 64);
+}
+
+
+.note {
+    font-size:20px;
+    color:black;
+    font-family: 'Patrick Hand', cursive;
+    font-weight:1px;
+}
+
+body {
+    background-image:url("bground.png");
+    background-size:cover;
+}
+
+.play_button {
+        font-size:25px;
+        font-family: 'Patrick Hand', cursive;
+        margin-top: 20px;
+        width:275px;
+    }
+
+.copy_right_footer {
+    position:fixed;
+    bottom:0;
+    width:100%;
+    background-color:#68d4ff;
+    color:black;
+    text-align: center;
+    line-height:3;
+    font-family: 'Varela Round', sans-serif;
+    font-size:17px;
+    font-weight:bolder;
+}
+
+canvas 
+  {
+    border:5px solid white;
+    border-radius:20px;
+    box-shadow:5px 5px 5px grey;
+    margin-top: 140px; 
+  }
